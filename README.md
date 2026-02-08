@@ -1,6 +1,6 @@
 # Ollama
 
-Install LLm localy using Ollama with docker
+Install LLM localy using Ollama with docker
 
 ## Prerequisites
 - Git
