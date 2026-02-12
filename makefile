@@ -1,5 +1,3 @@
-model ?=
-
 ollama:
 	docker exec -it ollama ollama --version
 
@@ -14,4 +12,3 @@ ollama-rm:
 
 ollama-run:
 	docker exec -it ollama ollama run ${model}
-
