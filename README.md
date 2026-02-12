@@ -21,7 +21,7 @@ docker compose up -d
 
 ```text
 make ollama                     <-  ollama version
-make ollama-list                <-  list model
+make ollama-list                <-  model list
 make ollama-pull model=<model>  <-  pull model
 make ollama-rm model=<model>    <-  remove model
 make ollama-run model=<model>   <-  run model
@@ -30,5 +30,5 @@ make ollama-run model=<model>   <-  run model
 ### Example
 
 ```bash
-make ollama-run model=deepseek-r1:1.5b
+make ollama-pull model=deepseek-r1:1.5b
 ```
