@@ -1,5 +1,7 @@
 # Ollama
 
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+
 Install LLM localy using Ollama with Docker
 
 ## Prerequisites
